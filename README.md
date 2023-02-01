@@ -23,6 +23,9 @@ This was made using Android Studio and can be easily rebuild.
 9. Install and go to the app settings and allow overlay permission and storage permission. 
 10. Open game.
 
+# Does it work with AIDE?
+Currently NO, it doesn't. I will update in future but till then just make a new project in AIDE and copy all files then build.
+
 # Failed to get Base Address of games?
 1. Check for the game package name and library used for main data storage.
 2. If game changes packagename then use your brain and change the get packagename func manually.

@@ -24,10 +24,8 @@ This was made using Android Studio and can be easily rebuild.
 10. Open game.
 
 # Failed to get Base Address of games?
-1. Use a driver to read memory rather using the winapi callbacks. In case you don't have a driver or don't know about making one refer to youtube/github for public sources.
-2. You can also disable any anticheat running as they can block R/W permsisson.
-
-As for the Process id, it will actually be auto selected even there are multiple instances of the same game, the func searches for the game and checks for the highest memory usage among the instances.
+1. Check for the game package name and library used for main data storage.
+2. If game changes packagename then use your brain and change the get packagename func manually.
 
 # What games does it work on?
 It will work on any game built using Unreal Engine no matter the version used. 
